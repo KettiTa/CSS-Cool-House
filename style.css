@@ -1,0 +1,65 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: darkslategrey;
+    top: 300px;
+}
+
+.window {
+    display: flex;
+    position: relative;
+}
+
+.one, .two {
+    width: 90px;
+    height: 90px;
+    background-color: azure;
+    top: -100px;
+}
+
+.one {
+    left: 250px;
+}
+
+.two {
+    left: 350px;
+}
+
+.door {
+    position: relative;
+    width: 100px;
+    height: 220px;
+    background-color: black;
+    left: 30px;
+    top: 80px;
+}
+
+.handle {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gold;
+    left: 80px;
+    top: 110px;
+}
+
+.roof {
+    position: relative;
+    width: 0;
+    height: 0;
+    border: 350px solid transparent;
+    border-top: 0;
+    border-bottom: 200px solid grey;
+    top: -400px;
+    right: 230px;
+}
