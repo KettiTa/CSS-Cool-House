@@ -12,10 +12,12 @@ body {
     height: 300px;
     background-color: darkslategrey;
     top: 300px;
+    z-index: 0;
 }
 
 .window {
     display: flex;
+    z-index: 1;
 }
 
 .one, .two {
@@ -41,6 +43,7 @@ body {
     background-color: black;
     left: 30px;
     top: 80px;
+    z-index: 1;
 }
 
 .handle {
@@ -51,6 +54,7 @@ body {
     background-color: gold;
     left: 80px;
     top: 110px;
+    z-index: 2;
 }
 
 .roof {
@@ -62,4 +66,5 @@ body {
     border-bottom: 200px solid grey;
     top: -500px;
     right: 50px;
+    z-index: 1;
 }
